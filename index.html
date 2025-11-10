@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+   <head>
+      <!-- M E T A -->
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <!-- T I T L E -->
+      <title>مدبّر | إدارة أموالك بذكاء</title>
+
+      <!-- F O N T    F A M I L Y    ("IBM Plex Sans Arabic") -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"
+         rel="stylesheet"
+      />
+      <!-- S T Y L E S -->
+      <link rel="stylesheet" href="./css/style.min.css" />
+      <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+   </head>
+   <body>
+      <!-- S T A R T   S I D E   B A R -->
+      <div id="side-bar">
+         <div class="logo">
+            <div class="icon">
+               <svg
+                  class="svg-inline--fa fa-coins text-white text-lg md:text-xl"
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="coins"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  data-fa-i2svg=""
+               >
+                  <path
+                     fill="currentColor"
+                     d="M512 80c0 18-14.3 34.6-38.4 48c-29.1 16.1-72.5 27.5-122.3 30.9c-3.7-1.8-7.4-3.5-11.3-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4 .2-24.5 .6l-1.1-.6C142.3 114.6 128 98 128 80c0-44.2 86-80 192-80S512 35.8 512 80zM160.7 161.1c10.2-.7 20.7-1.1 31.3-1.1c62.2 0 117.4 12.3 152.5 31.4C369.3 204.9 384 221.7 384 240c0 4-.7 7.9-2.1 11.7c-4.6 13.2-17 25.3-35 35.5c0 0 0 0 0 0c-.1 .1-.3 .1-.4 .2l0 0 0 0c-.3 .2-.6 .3-.9 .5c-35 19.4-90.8 32-153.6 32c-59.6 0-112.9-11.3-148.2-29.1c-1.9-.9-3.7-1.9-5.5-2.9C14.3 274.6 0 258 0 240c0-34.8 53.4-64.5 128-75.4c10.5-1.5 21.4-2.7 32.7-3.5zM416 240c0-21.9-10.6-39.9-24.1-53.4c28.3-4.4 54.2-11.4 76.2-20.5c16.3-6.8 31.5-15.2 43.9-25.5V176c0 19.3-16.5 37.1-43.8 50.9c-14.6 7.4-32.4 13.7-52.4 18.5c.1-1.8 .2-3.5 .2-5.3zm-32 96c0 18-14.3 34.6-38.4 48c-1.8 1-3.6 1.9-5.5 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.6-12.6-153.6-32C14.3 370.6 0 354 0 336V300.6c12.5 10.3 27.6 18.7 43.9 25.5C83.4 342.6 135.8 352 192 352s108.6-9.4 148.1-25.9c7.8-3.2 15.3-6.9 22.4-10.9c6.1-3.4 11.8-7.2 17.2-11.2c1.5-1.1 2.9-2.3 4.3-3.4V304v5.7V336zm32 0V304 278.1c19-4.2 36.5-9.5 52.1-16c16.3-6.8 31.5-15.2 43.9-25.5V272c0 10.5-5 21-14.9 30.9c-16.3 16.3-45 29.7-81.3 38.4c.1-1.7 .2-3.5 .2-5.3zM192 448c56.2 0 108.6-9.4 148.1-25.9c16.3-6.8 31.5-15.2 43.9-25.5V432c0 44.2-86 80-192 80S0 476.2 0 432V396.6c12.5 10.3 27.6 18.7 43.9 25.5C83.4 438.6 135.8 448 192 448z"
+                  ></path>
+               </svg>
+            </div>
+            <div>
+               <h2>مدبّر</h2>
+               <p>إدارة أموالك بذكاء</p>
+            </div>
+         </div>
+
+         <ul>
+            <li>
+               <span class="icon">
+                  <svg
+                     class="svg-inline--fa fa-house w-5 text-center text-blue-600"
+                     aria-hidden="true"
+                     focusable="false"
+                     data-prefix="fas"
+                     data-icon="house"
+                     role="img"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 576 512"
+                     data-fa-i2svg=""
+                  >
+                     <path
+                        fill="currentColor"
+                        d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                     ></path>
+                  </svg>
+               </span>
+               <span>الصفحة الرئيسية</span>
+            </li>
+            <li>
+               <span class="icon">
+                  <svg
+                     class="svg-inline--fa fa-arrow-right-arrow-left w-5 text-center text-gray-500"
+                     aria-hidden="true"
+                     focusable="false"
+                     data-prefix="fas"
+                     data-icon="arrow-right-arrow-left"
+                     role="img"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 448 512"
+                     data-fa-i2svg=""
+                  >
+                     <path
+                        fill="currentColor"
+                        d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z"
+                     ></path>
+                  </svg>
+               </span>
+               <span>المعاملات</span>
+            </li>
+            <li>
+               <span class="icon">
+                  <svg
+                     class="svg-inline--fa fa-chart-pie w-5 text-center text-gray-500"
+                     aria-hidden="true"
+                     focusable="false"
+                     data-prefix="fas"
+                     data-icon="chart-pie"
+                     role="img"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 576 512"
+                     data-fa-i2svg=""
+                  >
+                     <path
+                        fill="currentColor"
+                        d="M304 240V16.6c0-9 7-16.6 16-16.6C443.7 0 544 100.3 544 224c0 9-7.6 16-16.6 16H304zM32 272C32 150.7 122.1 50.3 239 34.3c9.2-1.3 17 6.1 17 15.4V288L412.5 444.5c6.7 6.7 6.2 17.7-1.5 23.1C371.8 495.6 323.8 512 272 512C139.5 512 32 404.6 32 272zm526.4 16c9.3 0 16.6 7.8 15.4 17c-7.7 55.9-34.6 105.6-73.9 142.3c-6 5.6-15.4 5.2-21.2-.7L320 288H558.4z"
+                     ></path>
+                  </svg>
+               </span>
+               <span>الميزانيات</span>
+            </li>
+            <li>
+               <span class="icon">
+                  <svg
+                     class="svg-inline--fa fa-piggy-bank w-5 text-center text-gray-500"
+                     aria-hidden="true"
+                     focusable="false"
+                     data-prefix="fas"
+                     data-icon="piggy-bank"
+                     role="img"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 576 512"
+                     data-fa-i2svg=""
+                  >
+                     <path
+                        fill="currentColor"
+                        d="M400 96l0 .7c-5.3-.4-10.6-.7-16-.7H256c-16.5 0-32.5 2.1-47.8 6c-.1-2-.2-4-.2-6c0-53 43-96 96-96s96 43 96 96zm-16 32c3.5 0 7 .1 10.4 .3c4.2 .3 8.4 .7 12.6 1.3C424.6 109.1 450.8 96 480 96h11.5c10.4 0 18 9.8 15.5 19.9l-13.8 55.2c15.8 14.8 28.7 32.8 37.5 52.9H544c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32H512c-9.1 12.1-19.9 22.9-32 32v64c0 17.7-14.3 32-32 32H416c-17.7 0-32-14.3-32-32V448H256v32c0 17.7-14.3 32-32 32H192c-17.7 0-32-14.3-32-32V416c-34.9-26.2-58.7-66.3-63.2-112H68c-37.6 0-68-30.4-68-68s30.4-68 68-68h4c13.3 0 24 10.7 24 24s-10.7 24-24 24H68c-11 0-20 9-20 20s9 20 20 20H99.2c12.1-59.8 57.7-107.5 116.3-122.8c12.9-3.4 26.5-5.2 40.5-5.2H384zm64 136a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z"
+                     ></path>
+                  </svg>
+               </span>
+               <span>المدخرات</span>
+            </li>
+            <li>
+               <span class="icon">
+                  <svg
+                     class="svg-inline--fa fa-file-invoice-dollar w-5 text-center text-gray-500"
+                     aria-hidden="true"
+                     focusable="false"
+                     data-prefix="fas"
+                     data-icon="file-invoice-dollar"
+                     role="img"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 384 512"
+                     data-fa-i2svg=""
+                  >
+                     <path
+                        fill="currentColor"
+                        d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM64 80c0-8.8 7.2-16 16-16h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16zm128 72c8.8 0 16 7.2 16 16v17.3c8.5 1.2 16.7 3.1 24.1 5.1c8.5 2.3 13.6 11 11.3 19.6s-11 13.6-19.6 11.3c-11.1-3-22-5.2-32.1-5.3c-8.4-.1-17.4 1.8-23.6 5.5c-5.7 3.4-8.1 7.3-8.1 12.8c0 3.7 1.3 6.5 7.3 10.1c6.9 4.1 16.6 7.1 29.2 10.9l.5 .1 0 0 0 0c11.3 3.4 25.3 7.6 36.3 14.6c12.1 7.6 22.4 19.7 22.7 38.2c.3 19.3-9.6 33.3-22.9 41.6c-7.7 4.8-16.4 7.6-25.1 9.1V440c0 8.8-7.2 16-16 16s-16-7.2-16-16V422.2c-11.2-2.1-21.7-5.7-30.9-8.9l0 0c-2.1-.7-4.2-1.4-6.2-2.1c-8.4-2.8-12.9-11.9-10.1-20.2s11.9-12.9 20.2-10.1c2.5 .8 4.8 1.6 7.1 2.4l0 0 0 0 0 0c13.6 4.6 24.6 8.4 36.3 8.7c9.1 .3 17.9-1.7 23.7-5.3c5.1-3.2 7.9-7.3 7.8-14c-.1-4.6-1.8-7.8-7.7-11.6c-6.8-4.3-16.5-7.4-29-11.2l-1.6-.5 0 0c-11-3.3-24.3-7.3-34.8-13.7c-12-7.2-22.6-18.9-22.7-37.3c-.1-19.4 10.8-32.8 23.8-40.5c7.5-4.4 15.8-7.2 24.1-8.7V232c0-8.8 7.2-16 16-16z"
+                     ></path>
+                  </svg>
+               </span>
+               <span>الفواتير الشهرية</span>
+            </li>
+         </ul>
+
+         <div class="actions">
+            <h3>إجراءات سريعة</h3>
+
+            <button>
+               <span class="icon">
+                  <svg
+                     class="svg-inline--fa fa-paper-plane text-blue-600"
+                     aria-hidden="true"
+                     focusable="false"
+                     data-prefix="fas"
+                     data-icon="paper-plane"
+                     role="img"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 512 512"
+                     data-fa-i2svg=""
+                  >
+                     <path
+                        fill="currentColor"
+                        d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480V396.4c0-4 1.5-7.8 4.2-10.7L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"
+                     ></path>
+                  </svg>
+               </span>
+               <span>إرسال أموال</span>
+            </button>
+
+            <button>
+               <span class="icon">
+                  <svg
+                     class="svg-inline--fa fa-plus text-green-600"
+                     aria-hidden="true"
+                     focusable="false"
+                     data-prefix="fas"
+                     data-icon="plus"
+                     role="img"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 448 512"
+                     data-fa-i2svg=""
+                  >
+                     <path
+                        fill="currentColor"
+                        d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"
+                     ></path>
+                  </svg>
+               </span>
+               <span>إضافة أموال</span>
+            </button>
+
+            <button>
+               <span class="icon">
+                  <svg
+                     class="svg-inline--fa fa-receipt text-purple-600"
+                     aria-hidden="true"
+                     focusable="false"
+                     data-prefix="fas"
+                     data-icon="receipt"
+                     role="img"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 384 512"
+                     data-fa-i2svg=""
+                  >
+                     <path
+                        fill="currentColor"
+                        d="M14 2.2C22.5-1.7 32.5-.3 39.6 5.8L80 40.4 120.4 5.8c9-7.7 22.3-7.7 31.2 0L192 40.4 232.4 5.8c9-7.7 22.3-7.7 31.2 0L304 40.4 344.4 5.8c7.1-6.1 17.1-7.5 25.6-3.6s14 12.4 14 21.8V488c0 9.4-5.5 17.9-14 21.8s-18.5 2.5-25.6-3.6L304 471.6l-40.4 34.6c-9 7.7-22.3 7.7-31.2 0L192 471.6l-40.4 34.6c-9 7.7-22.3 7.7-31.2 0L80 471.6 39.6 506.2c-7.1 6.1-17.1 7.5-25.6 3.6S0 497.4 0 488V24C0 14.6 5.5 6.1 14 2.2zM96 144c-8.8 0-16 7.2-16 16s7.2 16 16 16H288c8.8 0 16-7.2 16-16s-7.2-16-16-16H96zM80 352c0 8.8 7.2 16 16 16H288c8.8 0 16-7.2 16-16s-7.2-16-16-16H96c-8.8 0-16 7.2-16 16zM96 240c-8.8 0-16 7.2-16 16s7.2 16 16 16H288c8.8 0 16-7.2 16-16s-7.2-16-16-16H96z"
+                     ></path>
+                  </svg>
+               </span>
+               <span>دفع فاتورة</span>
+            </button>
+
+            <button>
+               <span class="icon">
+                  <svg
+                     class="svg-inline--fa fa-chart-line text-orange-600"
+                     aria-hidden="true"
+                     focusable="false"
+                     data-prefix="fas"
+                     data-icon="chart-line"
+                     role="img"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 512 512"
+                     data-fa-i2svg=""
+                  >
+                     <path
+                        fill="currentColor"
+                        d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z"
+                     ></path>
+                  </svg>
+               </span>
+               <span>استثمار</span>
+            </button>
+         </div>
+      </div>
+      <!-- E N D   S I D E   B A R -->
+
+      <!-- S T A R T   M A I N   C O N T E N T -->
+      <div class="container">
+         <!-- S T A R T   T O P   B A R-->
+         <div id="top-bar" class="border border-radius box-shadow">
+            <div>
+               <div class="icon">
+                  <svg
+                     class="svg-inline--fa fa-coins text-white text-lg md:text-xl"
+                     aria-hidden="true"
+                     focusable="false"
+                     data-prefix="fas"
+                     data-icon="coins"
+                     role="img"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 512 512"
+                     data-fa-i2svg=""
+                  >
+                     <path
+                        fill="currentColor"
+                        d="M512 80c0 18-14.3 34.6-38.4 48c-29.1 16.1-72.5 27.5-122.3 30.9c-3.7-1.8-7.4-3.5-11.3-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4 .2-24.5 .6l-1.1-.6C142.3 114.6 128 98 128 80c0-44.2 86-80 192-80S512 35.8 512 80zM160.7 161.1c10.2-.7 20.7-1.1 31.3-1.1c62.2 0 117.4 12.3 152.5 31.4C369.3 204.9 384 221.7 384 240c0 4-.7 7.9-2.1 11.7c-4.6 13.2-17 25.3-35 35.5c0 0 0 0 0 0c-.1 .1-.3 .1-.4 .2l0 0 0 0c-.3 .2-.6 .3-.9 .5c-35 19.4-90.8 32-153.6 32c-59.6 0-112.9-11.3-148.2-29.1c-1.9-.9-3.7-1.9-5.5-2.9C14.3 274.6 0 258 0 240c0-34.8 53.4-64.5 128-75.4c10.5-1.5 21.4-2.7 32.7-3.5zM416 240c0-21.9-10.6-39.9-24.1-53.4c28.3-4.4 54.2-11.4 76.2-20.5c16.3-6.8 31.5-15.2 43.9-25.5V176c0 19.3-16.5 37.1-43.8 50.9c-14.6 7.4-32.4 13.7-52.4 18.5c.1-1.8 .2-3.5 .2-5.3zm-32 96c0 18-14.3 34.6-38.4 48c-1.8 1-3.6 1.9-5.5 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.6-12.6-153.6-32C14.3 370.6 0 354 0 336V300.6c12.5 10.3 27.6 18.7 43.9 25.5C83.4 342.6 135.8 352 192 352s108.6-9.4 148.1-25.9c7.8-3.2 15.3-6.9 22.4-10.9c6.1-3.4 11.8-7.2 17.2-11.2c1.5-1.1 2.9-2.3 4.3-3.4V304v5.7V336zm32 0V304 278.1c19-4.2 36.5-9.5 52.1-16c16.3-6.8 31.5-15.2 43.9-25.5V272c0 10.5-5 21-14.9 30.9c-16.3 16.3-45 29.7-81.3 38.4c.1-1.7 .2-3.5 .2-5.3zM192 448c56.2 0 108.6-9.4 148.1-25.9c16.3-6.8 31.5-15.2 43.9-25.5V432c0 44.2-86 80-192 80S0 476.2 0 432V396.6c12.5 10.3 27.6 18.7 43.9 25.5C83.4 438.6 135.8 448 192 448z"
+                     ></path>
+                  </svg>
+               </div>
+               <div>
+                  <h1>مدبّر</h1>
+                  <p>إدارة أموالك بذكاء</p>
+               </div>
+
+               <div>
+                  <span>متصل</span>
+               </div>
+            </div>
+            <div>
+               <div>
+                  <div class="icon">
+                     <svg
+                        class="svg-inline--fa fa-magnifying-glass text-gray-600 group-hover:text-gray-700 text-sm md:text-base"
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="magnifying-glass"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                        data-fa-i2svg=""
+                     >
+                        <path
+                           fill="currentColor"
+                           d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                        ></path>
+                     </svg>
+                  </div>
+                  <div class="icon">
+                     <svg
+                        class="svg-inline--fa fa-bell text-gray-600 group-hover:text-gray-700 text-sm md:text-base"
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="far"
+                        data-icon="bell"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                        data-fa-i2svg=""
+                     >
+                        <path
+                           fill="currentColor"
+                           d="M224 0c-17.7 0-32 14.3-32 32V49.9C119.5 61.4 64 124.2 64 200v33.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V200c0-75.8-55.5-138.6-128-150.1V32c0-17.7-14.3-32-32-32zm0 96h8c57.4 0 104 46.6 104 104v33.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V200c0-57.4 46.6-104 104-104h8zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z"
+                        ></path>
+                     </svg>
+                     <span>2</span>
+                  </div>
+               </div>
+
+               <div>
+                  <div>
+                     <p>سيف أسامة</p>
+                     <p>حساب مميز</p>
+                  </div>
+                  <img src="./images/avatar-1.webp" alt="avatar-1" />
+               </div>
+            </div>
+            <div>
+               <span>متصل</span>
+            </div>
+         </div>
+         <!-- E N D   T O P   B A R-->
+
+         <!-- S T A R T   S U M M A R Y   C A R D S -->
+         <div id="summary-cards">
+            <div class="border border-radius box-shadow">
+               <p>الرصيد الحالي</p>
+               <p>8,450 جنية</p>
+               <div>
+                  <div class="icon">
+                     <svg
+                        class="svg-inline--fa fa-arrow-up text-green-600 text-sm ml-1"
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="arrow-up"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"
+                        data-fa-i2svg=""
+                     >
+                        <path
+                           fill="currentColor"
+                           d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+                        ></path>
+                     </svg>
+                  </div>
+                  <span>+2.5%</span>
+               </div>
+            </div>
+            <div class="border border-radius box-shadow">
+               <p>الدخل</p>
+               <p>15,000 جنية</p>
+               <div>
+                  <div class="icon">
+                     <svg
+                        class="svg-inline--fa fa-arrow-up text-green-600 text-sm ml-1"
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="arrow-up"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"
+                        data-fa-i2svg=""
+                     >
+                        <path
+                           fill="currentColor"
+                           d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+                        ></path>
+                     </svg>
+                  </div>
+                  <span>+8.2%</span>
+               </div>
+            </div>
+            <div class="border border-radius box-shadow">
+               <p>المصروفات</p>
+               <p>10,000 جنية</p>
+               <div>
+                  <div class="icon">
+                     <svg
+                        class="svg-inline--fa fa-arrow-down text-red-600 text-sm ml-1"
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="arrow-down"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"
+                        data-fa-i2svg=""
+                     >
+                        <path
+                           fill="currentColor"
+                           d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+                        ></path>
+                     </svg>
+                  </div>
+                  <span>-1.2%</span>
+               </div>
+            </div>
+         </div>
+         <!-- E N D   S U M M A R Y   C A R D S -->
+
+         <div class="items">
+            <!-- S T A R T    R E C E N T   A C T I V I T I E S -->
+            <div id="recent-activities" class="border border-radius box-shadow">
+               <h2>الأنشطة الحديثة</h2>
+               <div class="border-radius">
+                  <div class="icon">
+                     <svg
+                        class="svg-inline--fa fa-user-plus text-blue-600 text-sm"
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="user-plus"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 640 512"
+                        data-fa-i2svg=""
+                     >
+                        <path
+                           fill="currentColor"
+                           d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"
+                        ></path>
+                     </svg>
+                  </div>
+                  <div>
+                     <div>
+                        <h3>إنشاء حساب توفير جديد</h3>
+                        <span>حساب</span>
+                     </div>
+                     <p>تم إنشاء حساب توفير بنك الأهلي بنجاح</p>
+                     <span>منذ ساعة واحدة</span>
+                  </div>
+               </div>
+
+               <div class="border-radius">
+                  <div class="icon">
+                     <svg
+                        class="svg-inline--fa fa-credit-card text-green-600 text-sm"
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="credit-card"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 576 512"
+                        data-fa-i2svg=""
+                     >
+                        <path
+                           fill="currentColor"
+                           d="M64 32C28.7 32 0 60.7 0 96v32H576V96c0-35.3-28.7-64-64-64H64zM576 224H0V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V224zM112 352h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H112c-8.8 0-16-7.2-16-16s7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16H368c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-8.8 0-16-7.2-16-16z"
+                        ></path>
+                     </svg>
+                  </div>
+                  <div>
+                     <div>
+                        <h3>إضافة بطاقة جديدة</h3>
+                        <span>بطاقة</span>
+                     </div>
+                     <p>تمت إضافة بطاقة Visa الجديدة ****2847</p>
+                     <span>منذ 3 ساعات </span>
+                  </div>
+               </div>
+               <button>عرض جميع الأنشطة (23)</button>
+            </div>
+            <!-- E N D   R E C E N T   A C T I V I T I E S -->
+
+            <!-- S T A R T    T R A N S A C T I O N S -->
+            <div id="transactions" class="border border-radius box-shadow">
+               <div>
+                  <h2>المعاملات الأخيرة</h2>
+                  <span>عرض الكل &gt;</span>
+               </div>
+
+               <div>
+                  <table>
+                     <thead>
+                        <tr>
+                           <th>المعاملة</th>
+                           <th>الفئة</th>
+                           <th>التاريخ</th>
+                           <th>الحالة</th>
+                           <th>المبلغ</th>
+                        </tr>
+                     </thead>
+
+                     <tbody>
+                        <tr>
+                           <td>
+                              <div class="icon"><img src="./images/avatar-2.webp" alt="avatar 2" /></div>
+                              <div>
+                                 <p class="text-gray-900 fw-500">محمود النجار</p>
+                                 <p class="text-gray-500">تحويل أموال</p>
+                              </div>
+                           </td>
+                           <td>
+                              <span class="text-green-800 bg-green-100 fw-600">
+                                 <svg
+                                    class="icon textg svg-inline--fa fa-arrow-down w-3 h-3 ml-1"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="arrow-down"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 384 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+                                    ></path>
+                                 </svg>
+                                 دخل
+                              </span>
+                           </td>
+                           <td class="text-gray-600">14 <span>أكتوبر،</span> 2025</td>
+                           <td><span class="text-green-800 bg-green-100 fw-500">مكتمل</span></td>
+                           <td class="text-green-600"><span>+350</span> جنية</td>
+                        </tr>
+
+                        <tr>
+                           <td>
+                              <div class="icon bg-orange-100">
+                                 <svg
+                                    class="svg-inline--fa fa-utensils text-orange-600"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="utensils"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M416 0C400 0 288 32 288 176V288c0 35.3 28.7 64 64 64h32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352 240 32c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32V255.6c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16V150.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8V16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z"
+                                    ></path>
+                                 </svg>
+                              </div>
+                              <div>
+                                 <p class="text-gray-900 fw-500">مطعم Meat moot</p>
+                                 <p class="text-gray-500">دفع مطعم</p>
+                              </div>
+                           </td>
+                           <td>
+                              <span class="text-orange-800 bg-orange-100 fw-600">
+                                 <svg
+                                    class="icon svg-inline--fa fa-utensils"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="utensils"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M416 0C400 0 288 32 288 176V288c0 35.3 28.7 64 64 64h32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352 240 32c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32V255.6c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16V150.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8V16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z"
+                                    ></path>
+                                 </svg>
+                                 طعام
+                              </span>
+                           </td>
+                           <td class="text-gray-600">14 <span>أكتوبر،</span> 2025</td>
+                           <td><span class="text-green-800 bg-green-100 fw-500">مكتمل</span></td>
+                           <td><span>-2200</span> جنية</td>
+                        </tr>
+
+                        <tr>
+                           <td>
+                              <div class="icon bg-blue-100">
+                                 <svg
+                                    class="svg-inline--fa fa-cart-shopping text-blue-600"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="cart-shopping"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 576 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+                                    ></path>
+                                 </svg>
+                              </div>
+                              <div>
+                                 <p class="text-gray-900 fw-500">مشتريات Amazon</p>
+                                 <p class="text-gray-500">تسوق إلكتروني</p>
+                              </div>
+                           </td>
+                           <td>
+                              <span class="text-blue-800 bg-blue-100 fw-600">
+                                 <svg
+                                    class="icon svg-inline--fa fa-cart-shopping"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="cart-shopping"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 576 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+                                    ></path>
+                                 </svg>
+                                 تسوق
+                              </span>
+                           </td>
+                           <td class="text-gray-600">13 <span>أكتوبر،</span> 2025</td>
+                           <td><span class="text-green-800 bg-green-100 fw-500">مكتمل</span></td>
+                           <td><span>-1250</span> جنية</td>
+                        </tr>
+
+                        <tr>
+                           <td>
+                              <div class="icon"><img src="./images/avatar-1.webp" alt="avatar 1" /></div>
+                              <div>
+                                 <p class="text-gray-900 fw-500">عمر المهدي</p>
+                                 <p class="text-gray-500">دفع فاتورة مقسمة</p>
+                              </div>
+                           </td>
+                           <td>
+                              <span class="text-purple-800 bg-purple-100 fw-600">
+                                 <svg
+                                    class="icon svg-inline--fa fa-users w-3 h-3 ml-1"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="users"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"
+                                    ></path>
+                                 </svg>
+                                 فاتورة مقسمة
+                              </span>
+                           </td>
+                           <td class="text-gray-600">13 <span>أكتوبر،</span> 2025</td>
+                           <td><span class="text-green-800 bg-green-100 fw-500">مكتمل</span></td>
+                           <td><span>-1400</span> جنية</td>
+                        </tr>
+
+                        <tr>
+                           <td>
+                              <div class="icon"><img src="./images/avatar-3.webp" alt="avatar 3" /></div>
+                              <div>
+                                 <p class="text-gray-900 fw-500">محمد عوض</p>
+                                 <p class="text-gray-500">دفع عمل حر</p>
+                              </div>
+                           </td>
+                           <td>
+                              <span class="text-green-800 bg-green-100 fw-600">
+                                 <svg
+                                    class="icon svg-inline--fa fa-briefcase w-3 h-3 ml-1"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="briefcase"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"
+                                    ></path>
+                                 </svg>
+                                 عمل
+                              </span>
+                           </td>
+                           <td class="text-gray-600">12 <span>أكتوبر،</span> 2025</td>
+                           <td><span class="text-green-800 bg-green-100 fw-500">مكتمل</span></td>
+                           <td class="text-green-600"><span>+2500</span> جنية</td>
+                        </tr>
+
+                        <tr>
+                           <td>
+                              <div class="icon bg-red-100">
+                                 <svg
+                                    class="svg-inline--fa fa-gas-pump text-red-600"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="gas-pump"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M32 64C32 28.7 60.7 0 96 0H256c35.3 0 64 28.7 64 64V256h8c48.6 0 88 39.4 88 88v32c0 13.3 10.7 24 24 24s24-10.7 24-24V222c-27.6-7.1-48-32.2-48-62V96L384 64c-8.8-8.8-8.8-23.2 0-32s23.2-8.8 32 0l77.3 77.3c12 12 18.7 28.3 18.7 45.3V168v24 32V376c0 39.8-32.2 72-72 72s-72-32.2-72-72V344c0-22.1-17.9-40-40-40h-8V448c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32V64zM96 80v96c0 8.8 7.2 16 16 16H240c8.8 0 16-7.2 16-16V80c0-8.8-7.2-16-16-16H112c-8.8 0-16 7.2-16 16z"
+                                    ></path>
+                                 </svg>
+                              </div>
+
+                              <div>
+                                 <p class="text-gray-900 fw-500">محطة وقود Shell</p>
+                                 <p class="text-gray-500">شراء وقود</p>
+                              </div>
+                           </td>
+
+                           <td>
+                              <span class="text-red-800 bg-red-100 fw-600">
+                                 <svg
+                                    class="icon svg-inline--fa fa-car w-3 h-3 ml-1"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="car"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M135.2 117.4L109.1 192H402.9l-26.1-74.6C372.3 104.6 360.2 96 346.6 96H165.4c-13.6 0-25.7 8.6-30.2 21.4zM39.6 196.8L74.8 96.3C88.3 57.8 124.6 32 165.4 32H346.6c40.8 0 77.1 25.8 90.6 64.3l35.2 100.5c23.2 9.6 39.6 32.5 39.6 59.2V400v48c0 17.7-14.3 32-32 32H448c-17.7 0-32-14.3-32-32V400H96v48c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V400 256c0-26.7 16.4-49.6 39.6-59.2zM128 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"
+                                    ></path>
+                                 </svg>
+                                 مواصلات
+                              </span>
+                           </td>
+                           <td class="text-gray-600">12 <span>أكتوبر،</span> 2025</td>
+                           <td><span class="text-yellow-800 bg-yellow-100 fw-500">معلق</span></td>
+                           <td><span>-700</span> جنية</td>
+                        </tr>
+
+                        <tr>
+                           <td>
+                              <div class="icon bg-indigo-100">
+                                 <svg
+                                    class="svg-inline--fa fa-film text-indigo-600"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="film"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM48 368v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V368c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V368c0-8.8-7.2-16-16-16H416zM48 240v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16H416zM48 112v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V112c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zM416 96c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V112c0-8.8-7.2-16-16-16H416zM160 128v64c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V128c0-17.7-14.3-32-32-32H192c-17.7 0-32 14.3-32 32zm32 160c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V320c0-17.7-14.3-32-32-32H192z"
+                                    ></path>
+                                 </svg>
+                              </div>
+
+                              <div>
+                                 <p class="text-gray-900 fw-500">اشتراك Netflix</p>
+                                 <p class="text-gray-500">اشتراك شهري</p>
+                              </div>
+                           </td>
+
+                           <td>
+                              <span class="text-indigo-600 bg-indigo-100 fw-600">
+                                 <svg
+                                    class="icon svg-inline--fa fa-tv w-3 h-3 ml-1"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="tv"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M64 64V352H576V64H64zM0 64C0 28.7 28.7 0 64 0H576c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM128 448H512c17.7 0 32 14.3 32 32s-14.3 32-32 32H128c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
+                                    ></path>
+                                 </svg>
+                                 ترفيه
+                              </span>
+                           </td>
+                           <td class="text-gray-600">11 <span>أكتوبر،</span> 2025</td>
+                           <td><span class="text-green-800 bg-green-100 fw-500">مكتمل</span></td>
+                           <td><span>-780</span> جنية</td>
+                        </tr>
+
+                        <tr>
+                           <td>
+                              <div class="icon bg-cyan-100">
+                                 <svg
+                                    class="svg-inline--fa fa-dumbbell text-cyan-600"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="dumbbell"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M96 64c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V224v64V448c0 17.7-14.3 32-32 32H128c-17.7 0-32-14.3-32-32V384H64c-17.7 0-32-14.3-32-32V288c-17.7 0-32-14.3-32-32s14.3-32 32-32V160c0-17.7 14.3-32 32-32H96V64zm448 0v64h32c17.7 0 32 14.3 32 32v64c17.7 0 32 14.3 32 32s-14.3 32-32 32v64c0 17.7-14.3 32-32 32H544v64c0 17.7-14.3 32-32 32H480c-17.7 0-32-14.3-32-32V288 224 64c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32zM416 224v64H224V224H416z"
+                                    ></path>
+                                 </svg>
+                              </div>
+
+                              <div>
+                                 <p class="text-gray-900 fw-500">نادي FitLife</p>
+                                 <p class="text-gray-500">عضوية شهرية</p>
+                              </div>
+                           </td>
+
+                           <td>
+                              <span class="text-cyan-800 bg-cyan-100 fw-600">
+                                 <svg
+                                    class="icon svg-inline--fa fa-heart-pulse w-3 h-3 ml-1"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="heart-pulse"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M228.3 469.1L47.6 300.4c-4.2-3.9-8.2-8.1-11.9-12.4h87c22.6 0 43-13.6 51.7-34.5l10.5-25.2 49.3 109.5c3.8 8.5 12.1 14 21.4 14.1s17.8-5 22-13.3L320 253.7l1.7 3.4c9.5 19 28.9 31 50.1 31H476.3c-3.7 4.3-7.7 8.5-11.9 12.4L283.7 469.1c-7.5 7-17.4 10.9-27.7 10.9s-20.2-3.9-27.7-10.9zM503.7 240h-132c-3 0-5.8-1.7-7.2-4.4l-23.2-46.3c-4.1-8.1-12.4-13.3-21.5-13.3s-17.4 5.1-21.5 13.3l-41.4 82.8L205.9 158.2c-3.9-8.7-12.7-14.3-22.2-14.1s-18.1 5.9-21.8 14.8l-31.8 76.3c-1.2 3-4.2 4.9-7.4 4.9H16c-2.6 0-5 .4-7.3 1.1C3 225.2 0 208.2 0 190.9v-5.8c0-69.9 50.5-129.5 119.4-141C165 36.5 211.4 51.4 244 84l12 12 12-12c32.6-32.6 79-47.5 124.6-39.9C461.5 55.6 512 115.2 512 185.1v5.8c0 16.9-2.8 33.5-8.3 49.1z"
+                                    ></path>
+                                 </svg>
+                                 صحة
+                              </span>
+                           </td>
+                           <td class="text-gray-600">10 <span>أكتوبر،</span> 2025</td>
+                           <td><span class="text-green-800 bg-green-100 fw-500">مكتمل</span></td>
+                           <td><span>-500</span> جنية</td>
+                        </tr>
+
+                        <tr>
+                           <td>
+                              <div class="icon bg-emerald-100">
+                                 <svg
+                                    class="svg-inline--fa fa-graduation-cap text-emerald-600"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="graduation-cap"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"
+                                    ></path>
+                                 </svg>
+                              </div>
+
+                              <div>
+                                 <p class="text-gray-900 fw-500">كورس Jonas</p>
+                                 <p class="text-gray-500">دورة تدريبية</p>
+                              </div>
+                           </td>
+
+                           <td>
+                              <span class="text-emerald-800 bg-emerald-100 fw-600">
+                                 <svg
+                                    class="icon svg-inline--fa fa-book w-3 h-3 ml-1"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="book"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"
+                                    data-fa-i2svg=""
+                                 >
+                                    <path
+                                       fill="currentColor"
+                                       d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
+                                    ></path>
+                                 </svg>
+                                 تعليم
+                              </span>
+                           </td>
+                           <td class="text-gray-600">9 <span>أكتوبر،</span> 2025</td>
+                           <td><span class="text-green-800 bg-green-100 fw-500">مكتمل</span></td>
+                           <td><span>-250</span> جنية</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <!-- E N D   T R A N S A C T I O N S -->
+
+            <!-- S T A R T   M O N T H L Y   T R A C K E R -->
+            <div id="monthly-bills-tracker" class="border border-radius box-shadow">
+               <div>
+                  <h2>الفواتير الشهرية</h2>
+                  <span>عرض الكل &gt;</span>
+               </div>
+               <p>1920 جنية</p>
+               <p>إجمالي الفواتير الشهرية</p>
+               <div>
+                  <div class="border-radius box-shadow">
+                     <div class="icon">
+                        <svg
+                           class="svg-inline--fa fa-wifi text-blue-600 text-sm"
+                           aria-hidden="true"
+                           focusable="false"
+                           data-prefix="fas"
+                           data-icon="wifi"
+                           role="img"
+                           xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 640 512"
+                           data-fa-i2svg=""
+                        >
+                           <path
+                              fill="currentColor"
+                              d="M54.2 202.9C123.2 136.7 216.8 96 320 96s196.8 40.7 265.8 106.9c12.8 12.2 33 11.8 45.2-.9s11.8-33-.9-45.2C549.7 79.5 440.4 32 320 32S90.3 79.5 9.8 156.7C-2.9 169-3.3 189.2 8.9 202s32.5 13.2 45.2 .9zM320 256c56.8 0 108.6 21.1 148.2 56c13.3 11.7 33.5 10.4 45.2-2.8s10.4-33.5-2.8-45.2C459.8 219.2 393 192 320 192s-139.8 27.2-190.5 72c-13.3 11.7-14.5 31.9-2.8 45.2s31.9 14.5 45.2 2.8c39.5-34.9 91.3-56 148.2-56zm64 160a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"
+                           ></path>
+                        </svg>
+                     </div>
+                     <p>إنترنت</p>
+                     <p>450 جنية</p>
+                     <p>يستحق في 3 أيام</p>
+                  </div>
+                  <div class="border-radius box-shadow">
+                     <div class="icon">
+                        <svg
+                           class="svg-inline--fa fa-bolt text-yellow-600 text-sm"
+                           aria-hidden="true"
+                           focusable="false"
+                           data-prefix="fas"
+                           data-icon="bolt"
+                           role="img"
+                           xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 448 512"
+                           data-fa-i2svg=""
+                        >
+                           <path
+                              fill="currentColor"
+                              d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"
+                           ></path>
+                        </svg>
+                     </div>
+                     <p>كهرباء</p>
+                     <p>400 جنية</p>
+                     <p>يستحق في 5 أيام</p>
+                  </div>
+                  <div class="border-radius box-shadow">
+                     <div class="icon">
+                        <svg
+                           class="svg-inline--fa fa-phone text-green-600 text-sm"
+                           aria-hidden="true"
+                           focusable="false"
+                           data-prefix="fas"
+                           data-icon="phone"
+                           role="img"
+                           xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 512 512"
+                           data-fa-i2svg=""
+                        >
+                           <path
+                              fill="currentColor"
+                              d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                           ></path>
+                        </svg>
+                     </div>
+                     <p>هاتف</p>
+                     <p>290 جنية</p>
+                     <p>يستحق في 10 أيام</p>
+                  </div>
+                  <div class="border-radius box-shadow">
+                     <div class="icon">
+                        <svg
+                           class="svg-inline--fa fa-tv text-red-600 text-sm"
+                           aria-hidden="true"
+                           focusable="false"
+                           data-prefix="fas"
+                           data-icon="tv"
+                           role="img"
+                           xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 640 512"
+                           data-fa-i2svg=""
+                        >
+                           <path
+                              fill="currentColor"
+                              d="M64 64V352H576V64H64zM0 64C0 28.7 28.7 0 64 0H576c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM128 448H512c17.7 0 32 14.3 32 32s-14.3 32-32 32H128c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
+                           ></path>
+                        </svg>
+                     </div>
+                     <p>Netflix</p>
+                     <p>780 جنية</p>
+                     <p>يستحق في 15 يوم</p>
+                  </div>
+               </div>
+            </div>
+            <!-- E N D   M O N T H L Y   T R A C K E R -->
+
+            <!-- S T A R T   B U D G E T   O V E R V I E W -->
+            <div id="budget-overview" class="border border-radius box-shadow">
+               <div>
+                  <h2>نظرة عامة على الميزانية</h2>
+                  <span>التفاصيل &gt;</span>
+               </div>
+
+               <div class="hero-card p-16 mb-24 border border-radius">
+                  <div class="info-1">
+                     <div>
+                        <p>إجمالي الميزانية</p>
+                        <p>10000 جنية</p>
+                     </div>
+                     <div>
+                        <p>المتبقي</p>
+                        <p>1750 جنية</p>
+                     </div>
+                  </div>
+                  <div class="info-2">
+                     <span>المستخدم: 8250 جنية</span>
+                     <span>82.5%</span>
+                  </div>
+                  <div class="persent"></div>
+               </div>
+
+               <div class="cards">
+                  <div class="card-1 card mb-16 border border-radius">
+                     <div class="card-info">
+                        <div class="d-flex">
+                           <div class="icon">
+                              <svg
+                                 class="svg-inline--fa fa-film text-orange-600"
+                                 aria-hidden="true"
+                                 focusable="false"
+                                 data-prefix="fas"
+                                 data-icon="film"
+                                 role="img"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 512 512"
+                                 data-fa-i2svg=""
+                              >
+                                 <path
+                                    fill="currentColor"
+                                    d="M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM48 368v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V368c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V368c0-8.8-7.2-16-16-16H416zM48 240v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16H416zM48 112v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V112c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zM416 96c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V112c0-8.8-7.2-16-16-16H416zM160 128v64c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V128c0-17.7-14.3-32-32-32H192c-17.7 0-32 14.3-32 32zm32 160c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V320c0-17.7-14.3-32-32-32H192z"
+                                 ></path>
+                              </svg>
+                           </div>
+                           <div class="info-1">
+                              <p>ترفيه</p>
+                              <p>الميزانية: 1500 جنية</p>
+                           </div>
+                        </div>
+                        <div class="info-2">
+                           <p>750 جنية</p>
+                           <p>متبقي 50%</p>
+                        </div>
+                     </div>
+                     <div class="persent"></div>
+                  </div>
+
+                  <div class="card-2 card mb-16 border border-radius">
+                     <div class="card-info">
+                        <div class="d-flex">
+                           <div class="icon">
+                              <svg
+                                 class="svg-inline--fa fa-file-invoice-dollar text-red-600"
+                                 aria-hidden="true"
+                                 focusable="false"
+                                 data-prefix="fas"
+                                 data-icon="file-invoice-dollar"
+                                 role="img"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 384 512"
+                                 data-fa-i2svg=""
+                              >
+                                 <path
+                                    fill="currentColor"
+                                    d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM64 80c0-8.8 7.2-16 16-16h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16zm128 72c8.8 0 16 7.2 16 16v17.3c8.5 1.2 16.7 3.1 24.1 5.1c8.5 2.3 13.6 11 11.3 19.6s-11 13.6-19.6 11.3c-11.1-3-22-5.2-32.1-5.3c-8.4-.1-17.4 1.8-23.6 5.5c-5.7 3.4-8.1 7.3-8.1 12.8c0 3.7 1.3 6.5 7.3 10.1c6.9 4.1 16.6 7.1 29.2 10.9l.5 .1 0 0 0 0c11.3 3.4 25.3 7.6 36.3 14.6c12.1 7.6 22.4 19.7 22.7 38.2c.3 19.3-9.6 33.3-22.9 41.6c-7.7 4.8-16.4 7.6-25.1 9.1V440c0 8.8-7.2 16-16 16s-16-7.2-16-16V422.2c-11.2-2.1-21.7-5.7-30.9-8.9l0 0c-2.1-.7-4.2-1.4-6.2-2.1c-8.4-2.8-12.9-11.9-10.1-20.2s11.9-12.9 20.2-10.1c2.5 .8 4.8 1.6 7.1 2.4l0 0 0 0 0 0c13.6 4.6 24.6 8.4 36.3 8.7c9.1 .3 17.9-1.7 23.7-5.3c5.1-3.2 7.9-7.3 7.8-14c-.1-4.6-1.8-7.8-7.7-11.6c-6.8-4.3-16.5-7.4-29-11.2l-1.6-.5 0 0c-11-3.3-24.3-7.3-34.8-13.7c-12-7.2-22.6-18.9-22.7-37.3c-.1-19.4 10.8-32.8 23.8-40.5c7.5-4.4 15.8-7.2 24.1-8.7V232c0-8.8 7.2-16 16-16z"
+                                 ></path>
+                              </svg>
+                           </div>
+                           <div class="info-1">
+                              <p>فواتير</p>
+                              <p>فواتير الميزانية: 2000 جنية</p>
+                           </div>
+                        </div>
+                        <div class="info-2">
+                           <p>2000 جنية</p>
+                           <p>مستخدم 100%</p>
+                        </div>
+                     </div>
+                     <div class="persent"></div>
+                  </div>
+
+                  <div class="card-3 card mb-16 border border-radius">
+                     <div class="card-info">
+                        <div class="d-flex">
+                           <div class="icon">
+                              <svg
+                                 class="svg-inline--fa fa-heart text-pink-600"
+                                 aria-hidden="true"
+                                 focusable="false"
+                                 data-prefix="fas"
+                                 data-icon="heart"
+                                 role="img"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 512 512"
+                                 data-fa-i2svg=""
+                              >
+                                 <path
+                                    fill="currentColor"
+                                    d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+                                 ></path>
+                              </svg>
+                           </div>
+                           <div class="info-1">
+                              <p>العناية الشخصية</p>
+                              <p>الميزانية: 1500 جنية</p>
+                           </div>
+                        </div>
+                        <div class="info-2">
+                           <p>1200 جنية</p>
+                           <p>متبقي 14%</p>
+                        </div>
+                     </div>
+                     <div class="persent"></div>
+                  </div>
+
+                  <div class="card-4 card border border-radius">
+                     <div class="card-info">
+                        <div class="d-flex">
+                           <div class="icon">
+                              <svg
+                                 class="svg-inline--fa fa-cart-shopping text-green-600"
+                                 aria-hidden="true"
+                                 focusable="false"
+                                 data-prefix="fas"
+                                 data-icon="cart-shopping"
+                                 role="img"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 576 512"
+                                 data-fa-i2svg=""
+                              >
+                                 <path
+                                    fill="currentColor"
+                                    d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+                                 ></path>
+                              </svg>
+                           </div>
+                           <div class="info-1">
+                              <p>مستلزمات المنزل</p>
+                              <p>الميزانية: 5000 جنية</p>
+                           </div>
+                        </div>
+                        <div class="info-2">
+                           <p>4300 جنية</p>
+                           <p>متبقي 14%</p>
+                        </div>
+                     </div>
+                     <div class="persent"></div>
+                  </div>
+               </div>
+            </div>
+            <!-- E N D   B U D G E T   O V E R V I E W -->
+
+            <!-- S T A R T   I N C O M E   E X P E N S E S -->
+            <div id="income-expenses" class="border border-radius box-shadow">
+               <div class="mb-16">
+                  <h2>الدخل مقابل المصروفات</h2>
+                  <span>التحليل &gt;</span>
+               </div>
+
+               <div class="mb-16 d-flex">
+                  <div class="d-flex">
+                     <div></div>
+                     <span>الدخل</span>
+                  </div>
+                  <div class="d-flex">
+                     <div></div>
+                     <span>المصروفات</span>
+                  </div>
+               </div>
+
+               <div class="d-flex">
+                  <div>
+                     <div class="d-flex">
+                        <div></div>
+                        <div></div>
+                     </div>
+                     <div class="mt-8">الأسبوع 1</div>
+                  </div>
+                  <div>
+                     <div class="d-flex">
+                        <div></div>
+                        <div></div>
+                     </div>
+                     <div class="mt-8">الأسبوع 2</div>
+                  </div>
+                  <div>
+                     <div class="d-flex">
+                        <div></div>
+                        <div></div>
+                     </div>
+                     <div class="mt-8">الأسبوع 3</div>
+                  </div>
+                  <div>
+                     <div class="d-flex">
+                        <div></div>
+                        <div></div>
+                     </div>
+                     <div class="mt-8">الأسبوع 4</div>
+                  </div>
+               </div>
+            </div>
+            <!-- E N D   I N C O M E   E X P E N S E S -->
+
+            <!-- S T A R T   A C C O U N T   S U M M A R Y -->
+            <div id="account-summary" class="border border-radius box-shadow">
+               <div>
+                  <h2>ملخص الحساب</h2>
+                  <span>التفاصيل &gt;</span>
+               </div>
+               <div class="cards">
+                  <div class="card card-1 d-flex p-16 mb-16 border border-radius">
+                     <div class="d-flex gap-16">
+                        <div class="icon">
+                           <svg
+                              class="svg-inline--fa fa-building-columns text-blue-600"
+                              aria-hidden="true"
+                              focusable="false"
+                              data-prefix="fas"
+                              data-icon="building-columns"
+                              role="img"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 512 512"
+                              data-fa-i2svg=""
+                           >
+                              <path
+                                 fill="currentColor"
+                                 d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24H456c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224H64V420.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512H480c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1V224H384V416H344V224H280V416H232V224H168V416H128V224zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
+                              ></path>
+                           </svg>
+                        </div>
+                        <div>
+                           <p>حساب جاري</p>
+                           <p>بنك مصر <span dir="ltr">[•••• 4532]</span></p>
+                        </div>
+                     </div>
+                     <p>8,450 جنية</p>
+                  </div>
+
+                  <div class="card card-2 d-flex p-16 mb-16 border border-radius">
+                     <div class="d-flex gap-16">
+                        <div class="icon">
+                           <svg
+                              class="svg-inline--fa fa-piggy-bank text-green-600"
+                              aria-hidden="true"
+                              focusable="false"
+                              data-prefix="fas"
+                              data-icon="piggy-bank"
+                              role="img"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 576 512"
+                              data-fa-i2svg=""
+                           >
+                              <path
+                                 fill="currentColor"
+                                 d="M400 96l0 .7c-5.3-.4-10.6-.7-16-.7H256c-16.5 0-32.5 2.1-47.8 6c-.1-2-.2-4-.2-6c0-53 43-96 96-96s96 43 96 96zm-16 32c3.5 0 7 .1 10.4 .3c4.2 .3 8.4 .7 12.6 1.3C424.6 109.1 450.8 96 480 96h11.5c10.4 0 18 9.8 15.5 19.9l-13.8 55.2c15.8 14.8 28.7 32.8 37.5 52.9H544c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32H512c-9.1 12.1-19.9 22.9-32 32v64c0 17.7-14.3 32-32 32H416c-17.7 0-32-14.3-32-32V448H256v32c0 17.7-14.3 32-32 32H192c-17.7 0-32-14.3-32-32V416c-34.9-26.2-58.7-66.3-63.2-112H68c-37.6 0-68-30.4-68-68s30.4-68 68-68h4c13.3 0 24 10.7 24 24s-10.7 24-24 24H68c-11 0-20 9-20 20s9 20 20 20H99.2c12.1-59.8 57.7-107.5 116.3-122.8c12.9-3.4 26.5-5.2 40.5-5.2H384zm64 136a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z"
+                              ></path>
+                           </svg>
+                        </div>
+                        <div>
+                           <p>حساب التوفير</p>
+                           <p>بنك مصر <span dir="ltr">[•••• 8901]</span></p>
+                        </div>
+                     </div>
+                     <p>297,540 جنية</p>
+                  </div>
+
+                  <div class="card card-3 d-flex p-16 border border-radius">
+                     <div class="d-flex gap-16">
+                        <div class="icon">
+                           <svg
+                              class="svg-inline--fa fa-credit-card text-purple-600"
+                              aria-hidden="true"
+                              focusable="false"
+                              data-prefix="fas"
+                              data-icon="credit-card"
+                              role="img"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 576 512"
+                              data-fa-i2svg=""
+                           >
+                              <path
+                                 fill="currentColor"
+                                 d="M64 32C28.7 32 0 60.7 0 96v32H576V96c0-35.3-28.7-64-64-64H64zM576 224H0V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V224zM112 352h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H112c-8.8 0-16-7.2-16-16s7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16H368c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-8.8 0-16-7.2-16-16z"
+                              ></path>
+                           </svg>
+                        </div>
+                        <div>
+                           <p>بطاقة ائتمان</p>
+                           <p>متاح: 1,850 جنية من 2,500 جنية</p>
+                        </div>
+                     </div>
+                     <p>- 6,000 جنية</p>
+                  </div>
+               </div>
+            </div>
+            <!-- E N D   A C C O U N T   S U M M A R Y -->
+
+            <!-- S T A R T   P A Y M E N T   M E T H O D S -->
+            <div id="payment-methods" class="border border-radius box-shadow">
+               <div>
+                  <h2>وسائل الدفع</h2>
+                  <span>إدارة &gt;</span>
+               </div>
+
+               <div class="card card-1">
+                  <div class="card-inner mb-16">
+                     <div class="front-card border-radius">
+                        <div class="d-flex mb-32">
+                           <div class="d-flex"></div>
+                           <div class="icon">
+                              <svg
+                                 class="svg-inline--fa fa-cc-visa text-white text-3xl"
+                                 aria-hidden="true"
+                                 focusable="false"
+                                 data-prefix="fab"
+                                 data-icon="cc-visa"
+                                 role="img"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 576 512"
+                                 data-fa-i2svg=""
+                              >
+                                 <path
+                                    fill="currentColor"
+                                    d="M470.1 231.3s7.6 37.2 9.3 45H446c3.3-8.9 16-43.5 16-43.5-.2.3 3.3-9.1 5.3-14.9l2.8 13.4zM576 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48zM152.5 331.2L215.7 176h-42.5l-39.3 106-4.3-21.5-14-71.4c-2.3-9.9-9.4-12.7-18.2-13.1H32.7l-.7 3.1c15.8 4 29.9 9.8 42.2 17.1l35.8 135h42.5zm94.4.2L272.1 176h-40.2l-25.1 155.4h40.1zm139.9-50.8c.2-17.7-10.6-31.2-33.7-42.3-14.1-7.1-22.7-11.9-22.7-19.2.2-6.6 7.3-13.4 23.1-13.4 13.1-.3 22.7 2.8 29.9 5.9l3.6 1.7 5.5-33.6c-7.9-3.1-20.5-6.6-36-6.6-39.7 0-67.6 21.2-67.8 51.4-.3 22.3 20 34.7 35.2 42.2 15.5 7.6 20.8 12.6 20.8 19.3-.2 10.4-12.6 15.2-24.1 15.2-16 0-24.6-2.5-37.7-8.3l-5.3-2.5-5.6 34.9c9.4 4.3 26.8 8.1 44.8 8.3 42.2.1 69.7-20.8 70-53zM528 331.4L495.6 176h-31.1c-9.6 0-16.9 2.8-21 12.9l-59.7 142.5H426s6.9-19.2 8.4-23.3H486c1.2 5.5 4.8 23.3 4.8 23.3H528z"
+                                 ></path>
+                              </svg>
+                           </div>
+                        </div>
+                        <p>•••• •••• •••• 4532</p>
+                        <div class="d-flex">
+                           <div>
+                              <p>حامل البطاقة</p>
+                              <p>سيف أسامة</p>
+                           </div>
+                           <div>
+                              <p>تنتهي</p>
+                              <p>12/26</p>
+                           </div>
+                        </div>
+                        <span>أساسية</span>
+                     </div>
+                     <div class="back-card p-16 border-radius">
+                        <div></div>
+                        <p>توقيع معتمد - غير صالحة بدون توقيع</p>
+                        <p>4532</p>
+                        <div>
+                           <p>CVV</p>
+                           <p>123</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="card card-2">
+                  <div class="card-inner mb-16">
+                     <div class="front-card border-radius">
+                        <div class="d-flex mb-32">
+                           <div class="d-flex"></div>
+                           <div class="icon">
+                              <svg
+                                 class="svg-inline--fa fa-cc-mastercard text-white text-3xl"
+                                 aria-hidden="true"
+                                 focusable="false"
+                                 data-prefix="fab"
+                                 data-icon="cc-mastercard"
+                                 role="img"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 576 512"
+                                 data-fa-i2svg=""
+                              >
+                                 <path
+                                    fill="currentColor"
+                                    d="M482.9 410.3c0 6.8-4.6 11.7-11.2 11.7-6.8 0-11.2-5.2-11.2-11.7 0-6.5 4.4-11.7 11.2-11.7 6.6 0 11.2 5.2 11.2 11.7zm-310.8-11.7c-7.1 0-11.2 5.2-11.2 11.7 0 6.5 4.1 11.7 11.2 11.7 6.5 0 10.9-4.9 10.9-11.7-.1-6.5-4.4-11.7-10.9-11.7zm117.5-.3c-5.4 0-8.7 3.5-9.5 8.7h19.1c-.9-5.7-4.4-8.7-9.6-8.7zm107.8.3c-6.8 0-10.9 5.2-10.9 11.7 0 6.5 4.1 11.7 10.9 11.7 6.8 0 11.2-4.9 11.2-11.7 0-6.5-4.4-11.7-11.2-11.7zm105.9 26.1c0 .3.3.5.3 1.1 0 .3-.3.5-.3 1.1-.3.3-.3.5-.5.8-.3.3-.5.5-1.1.5-.3.3-.5.3-1.1.3-.3 0-.5 0-1.1-.3-.3 0-.5-.3-.8-.5-.3-.3-.5-.5-.5-.8-.3-.5-.3-.8-.3-1.1 0-.5 0-.8.3-1.1 0-.5.3-.8.5-1.1.3-.3.5-.3.8-.5.5-.3.8-.3 1.1-.3.5 0 .8 0 1.1.3.5.3.8.3 1.1.5s.2.6.5 1.1zm-2.2 1.4c.5 0 .5-.3.8-.3.3-.3.3-.5.3-.8 0-.3 0-.5-.3-.8-.3 0-.5-.3-1.1-.3h-1.6v3.5h.8V426h.3l1.1 1.4h.8l-1.1-1.3zM576 81v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V81c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48zM64 220.6c0 76.5 62.1 138.5 138.5 138.5 27.2 0 53.9-8.2 76.5-23.1-72.9-59.3-72.4-171.2 0-230.5-22.6-15-49.3-23.1-76.5-23.1-76.4-.1-138.5 62-138.5 138.2zm224 108.8c70.5-55 70.2-162.2 0-217.5-70.2 55.3-70.5 162.6 0 217.5zm-142.3 76.3c0-8.7-5.7-14.4-14.7-14.7-4.6 0-9.5 1.4-12.8 6.5-2.4-4.1-6.5-6.5-12.2-6.5-3.8 0-7.6 1.4-10.6 5.4V392h-8.2v36.7h8.2c0-18.9-2.5-30.2 9-30.2 10.2 0 8.2 10.2 8.2 30.2h7.9c0-18.3-2.5-30.2 9-30.2 10.2 0 8.2 10 8.2 30.2h8.2v-23zm44.9-13.7h-7.9v4.4c-2.7-3.3-6.5-5.4-11.7-5.4-10.3 0-18.2 8.2-18.2 19.3 0 11.2 7.9 19.3 18.2 19.3 5.2 0 9-1.9 11.7-5.4v4.6h7.9V392zm40.5 25.6c0-15-22.9-8.2-22.9-15.2 0-5.7 11.9-4.8 18.5-1.1l3.3-6.5c-9.4-6.1-30.2-6-30.2 8.2 0 14.3 22.9 8.3 22.9 15 0 6.3-13.5 5.8-20.7.8l-3.5 6.3c11.2 7.6 32.6 6 32.6-7.5zm35.4 9.3l-2.2-6.8c-3.8 2.1-12.2 4.4-12.2-4.1v-16.6h13.1V392h-13.1v-11.2h-8.2V392h-7.6v7.3h7.6V416c0 17.6 17.3 14.4 22.6 10.9zm13.3-13.4h27.5c0-16.2-7.4-22.6-17.4-22.6-10.6 0-18.2 7.9-18.2 19.3 0 20.5 22.6 23.9 33.8 14.2l-3.8-6c-7.8 6.4-19.6 5.8-21.9-4.9zm59.1-21.5c-4.6-2-11.6-1.8-15.2 4.4V392h-8.2v36.7h8.2V408c0-11.6 9.5-10.1 12.8-8.4l2.4-7.6zm10.6 18.3c0-11.4 11.6-15.1 20.7-8.4l3.8-6.5c-11.6-9.1-32.7-4.1-32.7 15 0 19.8 22.4 23.8 32.7 15l-3.8-6.5c-9.2 6.5-20.7 2.6-20.7-8.6zm66.7-18.3H408v4.4c-8.3-11-29.9-4.8-29.9 13.9 0 19.2 22.4 24.7 29.9 13.9v4.6h8.2V392zm33.7 0c-2.4-1.2-11-2.9-15.2 4.4V392h-7.9v36.7h7.9V408c0-11 9-10.3 12.8-8.4l2.4-7.6zm40.3-14.9h-7.9v19.3c-8.2-10.9-29.9-5.1-29.9 13.9 0 19.4 22.5 24.6 29.9 13.9v4.6h7.9v-51.7zm7.6-75.1v4.6h.8V302h1.9v-.8h-4.6v.8h1.9zm6.6 123.8c0-.5 0-1.1-.3-1.6-.3-.3-.5-.8-.8-1.1-.3-.3-.8-.5-1.1-.8-.5 0-1.1-.3-1.6-.3-.3 0-.8.3-1.4.3-.5.3-.8.5-1.1.8-.5.3-.8.8-.8 1.1-.3.5-.3 1.1-.3 1.6 0 .3 0 .8.3 1.4 0 .3.3.8.8 1.1.3.3.5.5 1.1.8.5.3 1.1.3 1.4.3.5 0 1.1 0 1.6-.3.3-.3.8-.5 1.1-.8.3-.3.5-.8.8-1.1.3-.6.3-1.1.3-1.4zm3.2-124.7h-1.4l-1.6 3.5-1.6-3.5h-1.4v5.4h.8v-4.1l1.6 3.5h1.1l1.4-3.5v4.1h1.1v-5.4zm4.4-80.5c0-76.2-62.1-138.3-138.5-138.3-27.2 0-53.9 8.2-76.5 23.1 72.1 59.3 73.2 171.5 0 230.5 22.6 15 49.5 23.1 76.5 23.1 76.4.1 138.5-61.9 138.5-138.4z"
+                                 ></path>
+                              </svg>
+                           </div>
+                        </div>
+                        <p>•••• •••• •••• 8901</p>
+                        <div class="d-flex">
+                           <div>
+                              <p>حامل البطاقة</p>
+                              <p>سيف أسامة</p>
+                           </div>
+                           <div>
+                              <p>تنتهي</p>
+                              <p>08/27</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="back-card p-16 border-radius">
+                        <div></div>
+                        <p>توقيع معتمد - غير صالحة بدون توقيع</p>
+                        <p>8901</p>
+                        <div>
+                           <p>CVV</p>
+                           <p>456</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="card card-3">
+                  <div class="card-inner">
+                     <div class="front-card border-radius">
+                        <div class="d-flex mb-32">
+                           <div class="d-flex"></div>
+                           <div class="icon">
+                              <svg
+                                 class="svg-inline--fa fa-paypal text-white text-3xl"
+                                 aria-hidden="true"
+                                 focusable="false"
+                                 data-prefix="fab"
+                                 data-icon="paypal"
+                                 role="img"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 384 512"
+                                 data-fa-i2svg=""
+                              >
+                                 <path
+                                    fill="currentColor"
+                                    d="M111.4 295.9c-3.5 19.2-17.4 108.7-21.5 134-.3 1.8-1 2.5-3 2.5H12.3c-7.6 0-13.1-6.6-12.1-13.9L58.8 46.6c1.5-9.6 10.1-16.9 20-16.9 152.3 0 165.1-3.7 204 11.4 60.1 23.3 65.6 79.5 44 140.3-21.5 62.6-72.5 89.5-140.1 90.3-43.4.7-69.5-7-75.3 24.2zM357.1 152c-1.8-1.3-2.5-1.8-3 1.3-2 11.4-5.1 22.5-8.8 33.6-39.9 113.8-150.5 103.9-204.5 103.9-6.1 0-10.1 3.3-10.9 9.4-22.6 140.4-27.1 169.7-27.1 169.7-1 7.1 3.5 12.9 10.6 12.9h63.5c8.6 0 15.7-6.3 17.4-14.9.7-5.4-1.1 6.1 14.4-91.3 4.6-22 14.3-19.7 29.3-19.7 71 0 126.4-28.8 142.9-112.3 6.5-34.8 4.6-71.4-23.8-92.6z"
+                                 ></path>
+                              </svg>
+                           </div>
+                        </div>
+                        <p>حساب Paypal</p>
+                        <div class="d-flex">
+                           <div>
+                              <p>الإيميل</p>
+                              <p>seif@example.com</p>
+                           </div>
+                           <div>
+                              <p>الحالة</p>
+                              <p class="text-color-green-400">موثق</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="back-card p-16 border-radius">
+                        <div></div>
+                        <p>توقيع معتمد - غير صالحة بدون توقيع</p>
+                        <p>PP01</p>
+                        <div>
+                           <p>ID</p>
+                           <p>PP-01</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- E N D   P A Y M E N T   M E T H O D S -->
+         </div>
+      </div>
+      <!-- E N D   M A I N   C O N T E N T -->
+   </body>
+</html>
